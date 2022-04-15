@@ -1,0 +1,64 @@
+.full-ctn {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.more-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.more-container:after {
+    content: none !important;
+}
+
+.langbar-style {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.ui.card {
+    margin-right: 13px;
+}
+
+.ui.card:first-child {
+    margin: 1em 0;
+    margin-right: 13px;
+}
+
+
+.ui.card:last-child {
+    margin-bottom: auto;
+}
+
+.ui.card > .content {
+    flex-grow: unset;
+}
+
+.descrip-ctn {
+    height: 95px;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.login-style {
+    color: black;
+}
+
+.style-inputbox {
+    margin-top: 20px;
+    margin-left: 75px
+}
+
+.design-text {
+    font-size: 16px;
+    font-weight: 500;
+    padding-right: 5px;
+}
+
+.nodata-found {
+    padding-top: 25px;
+}
